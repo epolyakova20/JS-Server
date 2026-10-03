@@ -1,6 +1,8 @@
 import { render } from "./modules/render";
 import { addUsers } from "./modules/addUsers";
 import { UserService } from "./modules/userService";
+import { removeUsers } from "./modules/removeUsers";
+
 
 window.userService = new UserService
 userService.getUsers().then(data =>{
@@ -9,3 +11,4 @@ userService.getUsers().then(data =>{
 })
 
 addUsers()
+removeUsers()

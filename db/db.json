@@ -13,14 +13,6 @@
       "email": "thornton@gmail.com",
       "children": false,
       "permissions": true
-    },
-    {
-      "name": "Alex",
-      "email": "f@mail.com",
-      "children": true,
-      "permissions": false,
-      "id": "2"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
